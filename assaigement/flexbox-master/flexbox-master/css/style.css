@@ -1,0 +1,531 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/* ============== Header Section Start ============= */
+#header{
+    background: url(../img/Between\ Night\ and\ Day.jpg);
+}
+.header{
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+    flex-flow: row wrap;
+}
+nav li{
+    flex-basis: 48%;
+    margin-bottom: 0.5rem;
+}
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+nav li:first-child a{
+    background: transparent;
+}
+nav a{
+    display: block;
+    font-size:1.2rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #1C4073;
+}
+nav a:hover{
+    background: #276fbf;
+}
+/* ============== Header Section End ============= */
+/* =================== Image Section Start ================== */
+
+.container {
+    background: url(/img/Netflix.jpg);
+}
+
+.image-section {
+    width: 100%;
+    background: orangered;
+}
+
+.image-section picture {
+    display: flex;
+    justify-content: center;
+}
+/* =================== Image Section End ================== */
+
+/* ============== Our Mission Start ============= */
+#our-mission {
+    width: 100%;
+    margin-bottom: 3rem;
+    background: honeydew;
+    padding: 20px 10px;
+}
+
+#our-mission>h1 {
+    margin-bottom: 10px;
+}
+
+.missiontxt {
+    display: block;
+    line-height: 1.7em;
+}
+
+.our-mission-img {
+    max-height: 100px;
+    display: block;
+}
+
+.text-box {
+    color: #fff;
+}
+
+.text-box h1 {
+    font-size: 4em;
+}
+
+.our-mission p {
+    color: #000;
+}
+/* =================== Mission Section End ================== */
+
+/* =================== Popular Section Start ================== */
+
+.Popular {
+    background: url(../img/Between\ Night\ and\ Day.jpg)no-repeat center;
+    width: 100%;
+    padding: 80px 0px;
+    position: relative;
+}
+
+.Popular h1 {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+figcaption {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coll {
+    border: 2px solid #000;
+    flex-basis: 26%;
+    position: relative;
+    margin: 20px;
+}
+
+.card-img img {
+    width: 350px;
+    height: 350px;
+    /* margin: 0 auto; */
+    object-fit: cover;
+    object-position: 0 -50px;
+}
+
+figcaption {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+/* =================== Popular Section End ================== */
+
+/* =================== Featured Section Start ================== */
+.featured {
+    width: 100%;
+    background: url(../img/089\ Premium\ White.png);
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    position: relative;
+}
+
+.featured>h1 {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: 800;
+}
+.container3 {
+    width: 70%;
+    position: relative;
+}
+
+.featured-imgage img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.figcaption {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+/* =================== Featured Section End ================== */
+
+/* =================== Collection Section Start ================== */
+
+.collection{
+    padding: 80px 5px;
+    position: relative;
+}
+.collection > h1 {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+}
+.collection ul{
+    margin: 0;
+    padding: 0;
+}
+
+.collection-img{
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    position: relative;
+}
+.collection-img > img{
+    width: 100%;
+    margin-bottom: -4px;
+    object-fit: cover;
+    object-position: 0 -50px;
+}
+.collection-img > figcaption {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.popular{
+    background: url(../img/Curiosity\ blue.jpg);
+    padding: 80px 5px;
+    position: relative;
+}
+.popular > h1 {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+}
+.popular ul{
+    margin: 0;
+    padding: 0;
+}
+
+.popular-img{
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    position: relative;
+}
+.popular-img > img{
+    width: 100%;
+    margin-bottom: -4px;
+    object-fit: cover;
+    object-position: 0 -50px;
+}
+.popular-img > figcaption {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+/* =================== Collection Section End ================== */
+
+/* =================== Footer Section Start ================== */
+footer {
+    width: 100%;
+    bottom: 0;
+    background: url(../img/Curiosity\ blue.jpg);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 150px;
+    font-size:12px;
+    line-height: 20px;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+.logo{
+    width: 190px;
+    margin-bottom: 5px;
+}
+.col h3{
+    width: fit-content;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.e-mail{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0 0 0;
+}
+.contact{
+    color: red;
+}
+.f-items li{
+    margin-bottom: 12px;
+}
+.f-link {
+    color: #fff;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.mail{
+    width: 20px;
+    padding-top: 10px;
+    margin: 0 10px;
+}
+form input{
+    margin-top: 20px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ccc;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.social-link .social-icon{
+    /* margin-top: 20px; */
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    margin: 20px auto;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.copy-right{
+    text-align: center;
+    font-size: 13px;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+.title-talha{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+/* =================== Footer Section End ================== */
+
+@media (min-width:550px) {
+    .header{
+        padding: 3rem;
+    }
+    nav ul{
+        justify-content: center;
+        gap: 1.2em;
+    }
+    nav li{
+        flex-basis: auto;
+        margin: 0;
+    }
+    nav a{
+        background: transparent;
+    }
+    nav a:hover{
+        color: aqua;
+    }
+    #our-mission {
+        padding: 20px 0px 20px 50px;
+        overflow: hidden;
+    }
+
+    .missiontxt {
+        display: flow-root;
+        max-width: 900px;
+    }
+
+    .our-mission-img {
+        float: left;
+        shape-outside: url(../img/logo2.png);
+        shape-margin: 1em;
+        max-height: 211px;
+    }
+    .collection ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .collection li{
+        flex-basis: 49.5%;
+    }
+    .collection-img > img{
+        object-position: 0;
+    }
+    .popular ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .popular li{
+        flex-basis: 49.5%;
+    }
+    .popular-img > img{
+        object-position: 0;
+    }
+    .popular li:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width:800px) {
+    nav ul{
+        justify-content: flex-end;
+    }
+    nav li:first-child{
+        flex-basis: auto;
+        margin: 0 auto;
+        order: 2;
+    }
+    nav li:nth-child(2),
+    nav li:nth-child(3){
+        order: 1;
+    }
+    nav li:nth-child(4),
+    nav li:nth-child(5){
+        order: 3;
+    }
+    .collection li{
+        flex-basis: 32.5%;
+    }
+    
+    .popular li{
+        flex-basis: 32.5%;
+    }
+    .popular li:nth-child(3){
+        flex-basis: 32.5%;
+    }
+}
+/* =================== Footer Section Start ================== */
+
+@media (max-width:700px)
+ {
+    footer{
+        bottom: unset;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+/* =================== Footer Section End ================== */
